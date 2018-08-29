@@ -16,3 +16,5 @@ All you need to run this is a standard python installation (I tested this on 3.5
 Just point the above variables to the appropriate location, specify the playlists you don't want to import, and go ahead and run the file in your python interpreter. If you have `rb_loc_to` set to something other than the default (default value of `rb_loc_from`) , you'll probably need to rename it to that so that Rhythmbox will recognize the playlist file.
 
 If you'd like to know how it works, take a look at the header of the script, it has a fairly thorough explanation of the structure of the two files, and hopefully the comments throughout are sufficient to explain the methods.
+
+This was last tested on 2018/09/29 with Python 3.6.5 and Rhythmbox 3.4.2.
