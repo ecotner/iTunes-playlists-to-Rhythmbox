@@ -152,8 +152,8 @@ class ITunesLibrary(object):
         tree.write(rb_loc_to, "UTF-8")
 
 
-itunes_loc = "/media/ecotner/Data HDD/Users/27182_000/Music/iTunes/iTunes Music Library.xml"
-library_loc = "/media/ecotner/Data HDD/Users/27182_000/Music/Saved"
+itunes_loc = "/media/ecotner/HDD/Users/27182_000/Music/iTunes/iTunes Music Library.xml"
+library_loc = "/media/ecotner/HDD/Users/27182_000/Music/Saved"
 rb_loc_from = "/home/ecotner/.local/share/rhythmbox/playlists_original.xml"
 rb_loc_to = "/home/ecotner/.local/share/rhythmbox/playlists.xml"
 playlists_to_remove = ["Library", "Downloaded", "Music", "90’s Music", "My Top Rated", "Recently Added",
